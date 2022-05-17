@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles, { IParticlesProps } from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
+import { Engine } from 'tsparticles-engine';
 import style from '../styles/Particle.module.css';
 
 const particleOptions: IParticlesProps = {
@@ -44,7 +45,7 @@ const particleOptions: IParticlesProps = {
 };
 
 const Particle = () => {
-  const particlesInit = async (main) => {
+  const particlesInit = async (main: Engine) => {
     await loadFull(main);
   };
 
