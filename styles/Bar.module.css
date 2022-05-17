@@ -1,0 +1,10 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar__title {
+  font-size: var(--fs-900);
+}

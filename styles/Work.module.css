@@ -1,0 +1,39 @@
+.work {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column-reverse;
+  margin-block: 2rem;
+}
+
+.work__img {
+  width: 70vw;
+}
+
+.work__role {
+  font-size: var(--fs-700);
+}
+
+.work__role__title {
+  font-weight: var(--fw-700);
+}
+
+.work a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 646px) {
+  .work {
+    flex-direction: row;
+  }
+
+  .work--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .work__img {
+    min-width: 350px;
+    max-width: 500px;
+    width: auto;
+  }
+}

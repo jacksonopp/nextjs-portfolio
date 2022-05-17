@@ -1,0 +1,36 @@
+.nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+  margin-block-start: 2rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 1rem;
+  background-color: var(--neutral-800);
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.nav__link {
+  font-size: var(--fs-900);
+  color: var(--neutral-100);
+  font-family: var(--ff-hero);
+  letter-spacing: 1px;
+}
+
+.nav__link:hover {
+  color: var(--neutral-200);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 646px) {
+  .nav__list {
+    justify-content: flex-end;
+  }
+}

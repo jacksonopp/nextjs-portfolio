@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.contact__item {
+  display: flex;
+  gap: 1.5em;
+}
+
+.contact__type {
+  min-width: 10ch;
+}
+
