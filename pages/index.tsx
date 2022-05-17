@@ -12,12 +12,10 @@ const Home: NextPage = () => {
         <title>Jackson Oppenheim | Home</title>
         <meta name='description' content="Jackson Oppenheim's Portfolio" />
       </Head>
-      <div className={styles.hero}>
-        <header>
-          <h1 className={styles.hero__item}>Hi.</h1>
-          <p className={styles.hero__item}>I'm Jackson Oppenheim.</p>
-        </header>
-      </div>
+      <header className={styles.hero}>
+        <h1 className={styles.hero__item}>Hi.</h1>
+        <p className={styles.hero__item}>I'm Jackson Oppenheim.</p>
+      </header>
       <div className={styles.intro}>
         <p>UX/UI Developer</p>
         <p>I build UIs that scale.</p>
