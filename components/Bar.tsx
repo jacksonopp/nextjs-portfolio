@@ -11,7 +11,7 @@ const Bar: React.FC<PropsWithChildren<Props>> = ({ children, percentage }) => {
     <>
       <div className={styles.bar}>
         <p className={styles.bar__title}>{children}</p>
-        <GagueChart percent={percentage / 100} nrOfLevels={2} colors={['hsl(213, 92%, 60%)', 'hsl(154, 52%, 50%)']} cornerRadius={8} arcsLength={[0.8, 0.2]} />
+        <GagueChart percent={percentage / 100} nrOfLevels={2} colors={['hsl(213, 92%, 60%)', 'hsl(47, 100%, 50%)']} cornerRadius={8} arcsLength={[0.8, 0.2]} />
       </div>
     </>
   );

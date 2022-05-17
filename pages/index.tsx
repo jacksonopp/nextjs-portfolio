@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <h2 className={styles.about__title}>Who am I?</h2>
         <div className={styles.about__content}>
           <div className={styles.bio}>
-            <p>I'm a Front-End Developer for Pearson VUE in Minneapolis, MN.</p>
+            <p>I'm a Front-End Developer at Pearson VUE in Minneapolis, MN.</p>
             <p>The Back-End often gets the focus on creating applications with scale, but the Front-End deserves that focus too.</p>
             <p>I'm serious about creating performant, intuitive, accessible, and scalable Front-End solutions.</p>
             <p>
