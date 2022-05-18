@@ -12,6 +12,7 @@
 .nav__list {
   margin: 0;
   padding: 0;
+  padding-inline-end: 1rem;
   list-style-type: none;
   display: flex;
   gap: 1em;

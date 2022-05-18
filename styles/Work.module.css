@@ -19,12 +19,13 @@
   font-size: var(--fs-700);
 }
 
-.work__role__title {
-  font-weight: var(--fw-700);
+.work__links {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.work a:hover {
-  text-decoration: underline;
+.work__role__title {
+  font-weight: var(--fw-700);
 }
 
 @media screen and (min-width: 646px) {
