@@ -80,7 +80,7 @@ const Work: NextPage = (props: Props) => {
           <p>I am incorporating CSS Modules, and using a BEM CSS System to allow me to easily scale the style of this site.</p>
           <p>It's also designed for a mobile first experience. Go ahead and look at this on your phone (or just shrink your browser window if you don't have your phone on you)!</p>
           <div className={workStyles.work__links}>
-            <Link href='/work'>Take a looke (you're already here)</Link>
+            <Link href='/work'>Take a look (you're already here)</Link>
             <a href='https://github.com/jacksonopp/nextjs-portfolio' rel='noreferrer' target='_blank'>
               View the source code
             </a>
