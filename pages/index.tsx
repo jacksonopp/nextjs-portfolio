@@ -32,17 +32,6 @@ const Home: NextPage = () => {
               <Link href='/contact-me'>Lets connect.</Link>
             </p>
           </div>
-          <div className={styles.bars}>
-            <Bar percentage={90}>Typescript</Bar>
-            <Bar percentage={90}>HTML</Bar>
-            <Bar percentage={90}>CSS</Bar>
-            <Bar percentage={85}>Angular</Bar>
-            <Bar percentage={60}>React</Bar>
-            <Bar percentage={40}>Node.js</Bar>
-            <Bar percentage={40}>Figma</Bar>
-            <Bar percentage={25}>Photoshop</Bar>
-            <Bar percentage={50}>UI Design</Bar>
-          </div>
         </div>
       </div>
     </>
