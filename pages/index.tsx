@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import HidenComment from '../components/HidenComment';
 import styles from '../styles/Home.module.css';
-import Bar from '../components/Bar';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
