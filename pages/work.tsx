@@ -100,7 +100,7 @@ const Work: NextPage = (props: Props) => {
           <p>
             A link shortener that also includes a time to live limit. It is
             using Next.js, Tailwindcss, Vercel edge serverless functions,
-            Prisma, Postgresql on Supabase, and tRPC.
+            Prisma, Postgresql on Railway, and tRPC.
           </p>
           <p>
             Since its a subdomain of this website, and my name is pretty long,
