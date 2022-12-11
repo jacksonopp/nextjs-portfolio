@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <h2 className={styles.about__title}>Who am I?</h2>
         <div className={styles.about__content}>
           <div className={styles.bio}>
-            <p>I'm a Front-End Developer at Pearson VUE in Minneapolis, MN.</p>
+            <p>I'm a Front-End Engineer in Minneapolis, MN.</p>
             <p>I'm serious about creating performant, intuitive, accessible, and scalable Front-End solutions.</p>
             <p>
               <Link href='/contact-me'>Lets connect.</Link>
